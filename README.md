@@ -1,2 +1,2 @@
 # AngularJS
-This repository contains backend development for webpage.<br>Different folders depict different functions.<br>For running the scripts, the system must have npm package installed and afterthat the package must be run by using "ng serve" from CLI.<br>For testing purpose, the output is reflected on URL: "localhost:4200".
+This repository contains backend development for webpage.<br>Different folders depict different functions.<br>For running the scripts, the system must have npm package installed and afterthat the package must be run by using "ng serve" from CLI.<br>For testing purpose, the output is reflected on URL: "localhost:4200".<br>Screenshots of the outputs are also provided in the repository.<br>Hope it proves useful.
