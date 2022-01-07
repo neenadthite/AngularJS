@@ -1,0 +1,23 @@
+<form [formGroup]="dataForm" (ngSubmit)="onSubmit(dataForm.value)">
+<h1 style="color:Brown;background-color:rgb(214, 226, 43)">Login page</h1>
+<label for="username">Enter Username: </label>
+  <input
+  type="text"
+  id="Username"
+  class="form-control"
+  formControlName="username">
+  <br>
+  <label for="password">Enter Password: </label>
+  <input
+  type="text"
+  id="Password"
+  class="form-control"
+  formControlName="password">
+  <br>
+   <button 
+      class="btn btn-primary">Submit</button>
+   <button
+      class="btn btn-primary"
+      (click)="onFetch()">Fetch</button>
+    </form>
+
